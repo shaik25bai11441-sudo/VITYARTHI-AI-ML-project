@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
-# load dataset
+# inputting the dataset
 df = pd.read_csv("INPUT_house_data.csv")
 
 print("\nShowing some data:\n")
@@ -17,7 +17,7 @@ print(df.isnull().sum())
 X = df[['area', 'bedrooms', 'age']]
 y = df['price']
 
-# IMPORTANT: keep this exactly same for stable results
+
 Xtr, Xte, ytr, yte = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
@@ -53,7 +53,7 @@ while True:
         b = int(input("Bedrooms: "))
         c = int(input("Age: "))
 
-        # simple checks
+        # checks to negate error
         if a < 800 or a > 2000:
             print("Area out of range")
             continue

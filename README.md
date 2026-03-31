@@ -94,25 +94,30 @@ Predicted Price: ₹263,787
   * Area: 800–2000
   * Bedrooms: 1–4
   * Age: 1–15
-* Very small dataset
-* Not accurate for real-world use
+* works on Very small dataset.
+* Not highly accurate for real-world use.
 
 ---
 
 ## What I Learned
 
-* Basic ML workflow
-* How to train a model
-* How to evaluate it
-* How to take input and make predictions
+* An end-to-end machine learning workflow, including problem definition, data collection and preprocessing, feature engineering, model selection, training, validation, and deployment considerations.
+  
+* Techniques for training models: choosing appropriate algorithms , splitting data into training/validation/test sets , selecting loss functions and optimizers, tuning hyperparameters, and employing regularization to prevent overfitting.
+  
+* Methods for evaluating model performance: using metrics appropriate to the task (example- accuracy, precision/recal,  ROC-AUC for classification; MAE, RMSE for regression) , constructing and interpreting confusion matrices , performing cross-validation and assessing model calibration and robustness.
+  
+*Procedures for receiving input and producing predictions reliably: validate and preprocess incoming data, handle missing or malformed values, apply the same feature transformations used during training, generate appropriate outputs (probabilistic scores or point estimates), and prepare the inference pipeline for batch or real-time deployment with logging, monitoring, and error-handling to ensure correctness and performance.
 
 ---
 
 ## Future Improvements
 
-* Use a bigger dataset
-* Add more features
-* Try other models
+* Expand the dataset to increase representativeness and model generalization.
+  
+* Incorporate additional features and perform feature engineering to capture more predictive signal.
+  
+* Experiment with alternative model architectures and algorithms , including ensemble methods and hyperparameter tuning , to identify better-performing approaches.
 
 ---
 

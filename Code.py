@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # load dataset
-df = pd.read_csv("house_data.csv")
+df = pd.read_csv("INPUT_house_data.csv")
 
 print("\nShowing some data:\n")
 print(df.head())

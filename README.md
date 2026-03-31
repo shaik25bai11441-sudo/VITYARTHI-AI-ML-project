@@ -107,7 +107,7 @@ Predicted Price: ₹263,787
   
 * Methods for evaluating model performance: using metrics appropriate to the task (example- accuracy, precision/recal,  ROC-AUC for classification; MAE, RMSE for regression) , constructing and interpreting confusion matrices , performing cross-validation and assessing model calibration and robustness.
   
-*Procedures for receiving input and producing predictions reliably: validate and preprocess incoming data, handle missing or malformed values, apply the same feature transformations used during training, generate appropriate outputs (probabilistic scores or point estimates), and prepare the inference pipeline for batch or real-time deployment with logging, monitoring, and error-handling to ensure correctness and performance.
+* Procedures for receiving input and producing predictions reliably: validate and preprocess incoming data, handle missing or malformed values, apply the same feature transformations used during training, generate appropriate outputs (probabilistic scores or point estimates), and prepare the inference pipeline for batch or real-time deployment with logging, monitoring, and error-handling to ensure correctness and performance.
 
 ---
 
